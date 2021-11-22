@@ -1,0 +1,20 @@
+.box {
+    font-family: SF Pro Display;
+    font-style: normal;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.drop-color {
+    background-color: #F2D8D5;
+    color: #733D47;
+}
+
+.color {
+    color: #733D47;
+}
+
+.vl {
+    border-right: 1px solid #733D47;
+}
