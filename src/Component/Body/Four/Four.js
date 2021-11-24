@@ -39,14 +39,23 @@ const Four = () => {
        <Form>
        <Form.Group className="mb-3 color">
          <Form.Label>Total Marks</Form.Label>
+         <Form.Group className="mb-3 text-center">
+   <Form.Control value={`5
+                        Marks`}  className="mb-2 text-center color" placeholder="Marks" disabled/>
+  </Form.Group>
        </Form.Group>
        <Form.Group className="mb-3 color">
          <Form.Label>Negative Marks</Form.Label>
+         <Form.Group className="mb-3 text-center">
+   <Form.Control value={`-
+                        Marks`}  className="mb-2 text-center color" placeholder="Marks" disabled/>
+  </Form.Group>
        </Form.Group>
      
      
        </Form>
        </div>
+       <i className="fas fa-plus-circle color fs-4 mt-3 ms-5"> Add Optional</i>
          </Col>
        </Row>
      </Container>

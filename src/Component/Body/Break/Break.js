@@ -4,7 +4,7 @@ import './Break.css'
 const Break = () => {
     return (
         <div className='break-color fs-1 text-center'>
-           <big>-------------- SECTION BREAK --------------</big> 
+           <big>---------- SECTION BREAK ----------</big> 
         </div>
     );
 };

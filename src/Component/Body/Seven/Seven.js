@@ -13,8 +13,25 @@ const Seven = () => {
     <Col xs={{ order: 'last' }}>
         <div>
     
-
+        <h2 className='color fs-3'>What is size of Earth?</h2>
+        <Form>
+    <InputGroup className="mb-3">
+    <InputGroup.Checkbox   aria-label="Checkbox for following text input" />
+    <FormControl aria-label="Text input with checkbox"   placeholder=' [A]              Option one' disabled />
+  </InputGroup>
+    <InputGroup className="mb-3">
+    <InputGroup.Checkbox   aria-label="Checkbox for following text input" />
+    <FormControl aria-label="Text input with checkbox"   placeholder=' [B]              Option two' disabled />
+  </InputGroup>
+    <InputGroup className="mb-3">
+    <InputGroup.Checkbox   aria-label="Checkbox for following text input" />
+    <FormControl aria-label="Text input with checkbox"   placeholder=' [C]              Option three ' disabled />
+  </InputGroup>
+    <InputGroup className="mb-3">
+    <FormControl aria-label="Text input with checkbox"  className='text-center'  placeholder=" Add Option " />
+  </InputGroup>
     
+  </Form>
   </div>
 
     </Col>
@@ -33,13 +50,22 @@ const Seven = () => {
   <Form>
   <Form.Group className="mb-3 color">
     <Form.Label>Total Marks</Form.Label>
+    <Form.Group className="mb-3 text-center">
+   <Form.Control value={`5
+                        Marks`}  className="mb-2 text-center color" placeholder="Marks" disabled/>
+  </Form.Group>
   </Form.Group>
   <Form.Group className="mb-3 color">
     <Form.Label>Negative Marks</Form.Label>
+    <Form.Group className="mb-3 text-center">
+   <Form.Control value={`1
+                        Marks`}  className="mb-2 text-center color" placeholder="Marks" disabled/>
+  </Form.Group>
   </Form.Group>
 
 
   </Form>
+  <i className="fas fa-plus-circle color fs-4 mt-3 ms-5"> Add Optional</i>
   </div>
     </Col>
   </Row>
